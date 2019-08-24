@@ -1,9 +1,9 @@
 <!-- <p>quote works!</p> -->
-  
+  <h1>My quotes</h1>
   <hr>
   <ul>
     <div *ngFor='let quote of quotes;let i = index'>
-    <li appStrikethrough>{{quote.name}} due on {{goal.completeDate}}</li>
+    <li appStrikethrough>{{quote.name}} due on {{quote.completeDate}}</li>
      <li>{{quote.name}}</li>
      <button (click)='More(i)'>More</button>
      <app-quote-detail *ngIf='quote.showDescription' [quote]='quote' (isComplete) = 'completeQuote($event,i)'></app-quote-detail>

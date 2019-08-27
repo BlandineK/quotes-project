@@ -1,4 +1,7 @@
 <!-- <p>quote-detail works!</p> -->
 <p>{{quote.description}}</p>
 <p>This quote was posted on {{quote.completeDate|dateCount}} days</p>
+<button (click)='Upvote()' class="btn btn-primary">Upvote {{upvote}}</button>
+<button (click)='Downvote()' class="btn btn-primary">Downvote {{downvote}}</button>
+   <br><br>
 <button (click)= 'quoteDelete(true)' class="btn btn-outline-danger">Delete Quote</button>

@@ -5,7 +5,7 @@ import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { QuoteDetailComponent } from './quote-detail/quote-detail.component';
-import { Quotecomponent } from './quote/quote.component';
+import { QuoteComponent } from './quote/quote.component';
 import { StrikethroughDirective } from './strikethrough.directive';
 import { DateCountPipe } from './date-count.pipe';
 import { QuoteFormComponent } from './quote-form/quote-form.component';
@@ -14,7 +14,7 @@ import { QuoteFormComponent } from './quote-form/quote-form.component';
   declarations: [
     AppComponent,
     QuoteDetailComponent,
-    Quotecomponent,7
+    QuoteComponent,
     StrikethroughDirective,
     DateCountPipe,
     QuoteFormComponent
